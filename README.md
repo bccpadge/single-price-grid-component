@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
-- Live Site URL: [Github Pages]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-single-grid-component-using-tailwindcss-KtHbaXA-Fc)
+- Live Site URL: [Github Pages](https://bccpadge.github.io/single-price-grid-component/)
 
 ## My process
 

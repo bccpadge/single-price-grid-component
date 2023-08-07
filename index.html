@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Frontend Mentor | Single Price Grid Component</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- css -->
+    <link rel="stylesheet" href="./public/output.css" />
+  </head>
+  <body class="grid min-h-screen text-base font-Karla place-content-center bg-gray">
+    <main class="mt-[4.5rem] mb-[4.75rem] md:mt-0 md:mb-0">
+      <h1 class="sr-only">Single price grid component</h1>
+      <div class="mx-4 max-w-[19.438rem] bg-white md:max-w-[40rem] md:grid md:grid-cols-2 shadow-lg rounded-lg overflow-hidden">
+        <article class="md:col-span-2 md:grid p-7">
+          <h2 class="mb-4 text-lg font-bold text-cyan">Join our community</h2>
+          <p class="font-bold text-yellow">30-day, hassle-free money back guarantee</p>
+          <p class="mt-4 text-[0.8125rem] text-grayish-blue md:text-[1.0313rem]">
+            Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.
+          </p>
+        </article>
+        <article class="p-7 bg-cyan">
+          <h3 class="font-bold text-white">Monthly Subscription</h3>
+          <p class="flex items-center gap-2 mt-4 text-white/60"><span class="text-3xl font-bold text-white">&dollar;29</span> per month</p>
+          <p class="mt-4 text-white">Full access for less than &dollar;1 a day</p>
+          <a href="#" class="block px-2 py-4 mt-4 font-bold text-center text-white rounded bg-yellow">Sign Up</a>
+        </article>
+        <article class="p-7 bg-cyan-md">
+          <h4 class="font-bold text-white">Why Us</h4>
+          <ul class="mt-4 text-white/60">
+            <li>Tutorials by industry experts</li>
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
+        </article>
+      </div>
+    </main>
+    <footer class="fixed bottom-[1em] left-[1em] text-xs hidden md:block">
+      <p>
+        Challenge by <a class="text-blue-600 underline" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+        <a class="text-blue-600 underline" href="#">Rebecca Padgett</a>.
+      </p>
+    </footer>
+  </body>
+</html>
